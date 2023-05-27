@@ -7,7 +7,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
 // eslint-disable-next-line
-export const DocType1PostTemplate = ({
+export const BlogPostTemplate = ({
   content,
   contentComponent,
   description,
@@ -47,7 +47,7 @@ export const DocType1PostTemplate = ({
   );
 };
 
-DocType1PostTemplate.propTypes = {
+BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -55,17 +55,17 @@ DocType1PostTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-const DocType1Post = ({ data }) => {
+const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <DocType1PostTemplate
+      <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | DocType1">
+          <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
@@ -80,22 +80,24 @@ const DocType1Post = ({ data }) => {
   );
 };
 
-DocType1Post.propTypes = {
+BlogPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 };
 
-export default DocType1Post;
+export default BlogPost;
 
 export const pageQuery = graphql`
-  query DocType1PostByID($id: String!) {
+  query BlogPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
       frontmatter {
+        date(formatString: "MMMM DD, YYYY")
         title
         description
+        tags
       }
     }
   }
