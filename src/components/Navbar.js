@@ -72,6 +72,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/doctype1">
                 Doc type 1
               </Link>
+              <Link className="navbar-item" to="/doctype2">
+                  Doc type 2
+              </Link>
             </div>
           </div>
         </div>

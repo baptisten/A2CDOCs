@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-class DocType1RollTemplate extends React.Component {
+class DocType2RollTemplate extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
@@ -65,7 +65,7 @@ class DocType1RollTemplate extends React.Component {
   }
 }
 
-DocType1Roll.propTypes = {
+DocType2Roll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -74,14 +74,14 @@ DocType1Roll.propTypes = {
 }
 
 
-export default function DocType1Roll() {
+export default function DocType2Roll() {
   return (
     <StaticQuery
       query={graphql`
-        query DocType1RollQuery {
+        query DocType2RollQuery {
           allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
-            filter: { frontmatter: { templateKey: { eq: "doc-type-1-post" } } }
+            filter: { frontmatter: { templateKey: { eq: "doc-type-2-post" } } }
           ) {
             edges {
               node {
@@ -111,7 +111,7 @@ export default function DocType1Roll() {
           }
         }
       `}
-      render={(data, count) => <DocType1RollTemplate data={data} count={count} />}
+      render={(data, count) => <DocType2RollTemplate data={data} count={count} />}
     />
   );
 }

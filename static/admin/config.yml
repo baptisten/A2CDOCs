@@ -47,6 +47,22 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "File", name: "file", widget: file }
 
+  - name: "doctype2"
+    label: "Document Type 2"
+    folder: "src/pages/doctype2"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+        label: "Template Key",
+        name: "templateKey",
+        widget: "hidden",
+        default: "doc-type-2-post",
+      }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "File", name: "file", widget: file }
+
   - name: "pages"
     label: "Pages"
     files:
