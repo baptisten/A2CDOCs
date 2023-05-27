@@ -206,12 +206,6 @@ export const productPageQuery = graphql`
           author
           quote
         }
-
-        full_image {
-          childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }
         pricing {
           heading
           description
