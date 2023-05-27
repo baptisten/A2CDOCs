@@ -2,12 +2,11 @@
 templateKey: index-page
 title: A2C Documents
 image: /img/dall·e-2023-05-26-15.52.48-background-image-with-documents-about-concrete-and-wooden-beams.png
-heading: A2C Documents
+heading: A2C Documents Heading
 subheading: Trouvez ici tous les documents relatifs à la Dalle BB
 mainpitch:
   title: A2C Documents
   description: A2C Documents
-description: A2C Documents
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -59,4 +58,5 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+description: Description
 ---
