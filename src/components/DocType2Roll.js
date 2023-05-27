@@ -15,9 +15,7 @@ class DocType2RollTemplate extends React.Component {
           posts.map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
-                }`}
+                className={`blog-list-item tile is-child box notification`}
               >
                 <header>
                   {post.frontmatter.featuredimage ? (
@@ -44,9 +42,6 @@ class DocType2RollTemplate extends React.Component {
                       {post.frontmatter.title}
                     </Link>
                     <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
                   </p>
                 </header>
                 <p>
@@ -80,7 +75,6 @@ export default function DocType2Roll() {
       query={graphql`
         query DocType2RollQuery {
           allMarkdownRemark(
-            sort: { order: DESC, fields: [frontmatter___date] }
             filter: { frontmatter: { templateKey: { eq: "doc-type-2-post" } } }
           ) {
             edges {
@@ -93,18 +87,6 @@ export default function DocType2Roll() {
                 frontmatter {
                   title
                   templateKey
-                  date(formatString: "MMMM DD, YYYY")
-                  featuredpost
-                  featuredimage {
-                    childImageSharp {
-                      gatsbyImageData(
-                        width: 120
-                        quality: 100
-                        layout: CONSTRAINED
-                      )
-
-                    }
-                  }
                 }
               }
             }
