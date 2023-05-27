@@ -7,7 +7,8 @@ class DocType1RollTemplate extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
-
+console.log('test');
+    console.log(data);
     return (
       <div className="columns is-multiline">
         {posts &&
