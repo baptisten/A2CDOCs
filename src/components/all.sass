@@ -2,13 +2,16 @@
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+$kaldi-red: #0000ff
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
+
+body .navbar
+  min-height: 5rem
 
 .navbar .navbar-menu
   box-shadow: none !important
@@ -74,6 +77,10 @@ $black: #2b2523
 .navbar-item .icon
   color: $primary
 // Override for use of svg's from https://simpleicons.org/
+
+body .navbar-item img
+  max-height: 3rem
+
 .icon svg
   width: 1.5rem
   height: 1.5rem
