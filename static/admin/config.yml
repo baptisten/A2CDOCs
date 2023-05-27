@@ -39,7 +39,7 @@ collections:
     fields:
       - {
         label: "Template Key",
-        name: "Doctype1templateKey",
+        name: "templateKey",
         widget: "hidden",
         default: "doc-type-1-post",
       }
