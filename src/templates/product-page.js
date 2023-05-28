@@ -155,12 +155,20 @@ export const productPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
-        image
+        image {
+          childImageSharp {
+            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+          }
+        }
         heading
         description
         intro {
           blurbs {
-            image
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
+              }
+            }
             text
           }
           heading
@@ -171,15 +179,27 @@ export const productPageQuery = graphql`
           description
           image1 {
             alt
-            image
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 526, quality: 92, layout: CONSTRAINED)
+              }
+            }
           }
           image2 {
             alt
-            image
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 526, quality: 92, layout: CONSTRAINED)
+              }
+            }
           }
           image3 {
             alt
-            image
+            image {
+              childImageSharp {
+                gatsbyImageData(quality: 72, layout: FULL_WIDTH)
+              }
+            }
           }
         }
         testimonials {
