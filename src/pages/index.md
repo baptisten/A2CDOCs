@@ -9,15 +9,9 @@ mainpitch:
   description: A2C Documents
 description: Description
 intro:
-  blurbs:
-    - text: asdasd
-      image: /documents/dalle1.png
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+  blurbs: []
+  heading: Documents a telecharger
+  description: Documents de type 1 et 2
 main:
   heading: Great coffee with no compromises
   description: >
