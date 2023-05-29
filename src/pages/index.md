@@ -10,11 +10,10 @@ mainpitch:
 description: Description
 intro:
   blurbs:
-    - image: /documents/dall·e-2023-05-29-10.35.17-background-image-with-documents-about-concrete-and-wooden-beams.png
-      text: |+
+    - image: https://fastly.picsum.photos/id/24/4855/1803.jpg?hmac=ICVhP1pUXDLXaTkgwDJinSUS59UWalMxf4SOIWb9Ui4
+      text: |
         Trouvez ici les documents de type 1
-
-    - image: /documents/dall·e-2023-05-29-10.35.27-background-image-with-documents-about-concrete-and-wooden-beams.png
+    - image: https://fastly.picsum.photos/id/24/4855/1803.jpg?hmac=ICVhP1pUXDLXaTkgwDJinSUS59UWalMxf4SOIWb9Ui4
       text: Trouvez ici les documents de type 2
   heading: What we offer
   description: >
