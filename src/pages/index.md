@@ -9,12 +9,7 @@ mainpitch:
   description: A2C Documents
 description: Description
 intro:
-  blurbs:
-    - image: https://fastly.picsum.photos/id/24/4855/1803.jpg?hmac=ICVhP1pUXDLXaTkgwDJinSUS59UWalMxf4SOIWb9Ui4
-      text: |
-        Trouvez ici les documents de type 1
-    - image: https://fastly.picsum.photos/id/24/4855/1803.jpg?hmac=ICVhP1pUXDLXaTkgwDJinSUS59UWalMxf4SOIWb9Ui4
-      text: Trouvez ici les documents de type 2
+  blurbs: []
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
