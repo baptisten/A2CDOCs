@@ -10,8 +10,8 @@ mainpitch:
 description: Description
 intro:
   blurbs:
-    - image: /documents/dalle1.png
-      text: Document type 1
+    - text: asdasd
+      image: /documents/dalle1.png
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
