@@ -9,7 +9,9 @@ mainpitch:
   description: A2C Documents
 description: Description
 intro:
-  blurbs: []
+  blurbs:
+    - image: /documents/dalle1.png
+      text: Document type 1
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
