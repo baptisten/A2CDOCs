@@ -1,15 +1,18 @@
 ---
+heading: A2C Documents Heading
 templateKey: index-page
 title: A2C Documents
 image: /img/docs-bckg.png
-heading: A2C Documents Heading
 subheading: Trouvez ici tous les documents relatifs à la Dalle BB
 mainpitch:
   title: A2C Documents
   description: C'est la description pour expliquer q'il y a des documents a telecharger.
-description: Description
 intro:
-  blurbs: []
+  blurbs:
+    - text: Document de type 1
+      link: /doc-type-1
+    - text: Documents de type 2
+      link: /doc-type-2
   heading: Documents a telecharger
   description: Documents de type 1 et 2
 main:
@@ -28,4 +31,5 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+description: Description
 ---
