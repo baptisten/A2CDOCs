@@ -6,7 +6,7 @@ heading: A2C Documents Heading
 subheading: Trouvez ici tous les documents relatifs à la Dalle BB
 mainpitch:
   title: A2C Documents
-  description: A2C Documents
+  description: C'est la description pour expliquer q'il y a des documents a telecharger.
 description: Description
 intro:
   blurbs: []
