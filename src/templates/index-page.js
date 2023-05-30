@@ -21,7 +21,9 @@ export const IndexPageTemplate = ({
 
   return (
     <div>
-      <FullWidthImage img={heroImage} title={title} subheading={subheading} />
+      <div class="full-width-image-container">
+        <FullWidthImage img={heroImage} title={title} subheading={subheading} />
+      </div>
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
@@ -39,9 +41,12 @@ export const IndexPageTemplate = ({
                   <Features gridItems={intro.blurbs} />
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
-                        See all products
+                      <Link className="btn" to="/doctype1">
+                        Documents de type 1
                       </Link>
+                        <Link className="btn" to="/doctype2">
+                            Documents de type 2
+                        </Link>
                     </div>
                   </div>
                 </div>
@@ -99,11 +104,6 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
-        image {
-          childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }
         heading
         subheading
         mainpitch {

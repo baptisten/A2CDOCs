@@ -49,8 +49,12 @@ class DocType2RollTemplate extends React.Component {
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    Plus de details →
                   </Link>
+                  <a className="button" href={post.frontmatter.file} target="_blank">
+                    Voir document →
+                  </a>
+
                 </p>
               </article>
             </div>
@@ -86,6 +90,7 @@ export default function DocType2Roll() {
                 }
                 frontmatter {
                   title
+                  file
                   templateKey
                 }
               }
