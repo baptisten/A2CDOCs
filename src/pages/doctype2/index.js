@@ -13,8 +13,8 @@ export default class DocType2IndexPage extends React.Component {
           <h1
             className="has-text-weight-bold is-size-1"
             style={{
-              boxShadow: "0.5rem 0 0 #00f, -0.5rem 0 0 #00f",
-              backgroundColor: "#00f",
+              boxShadow: "0.5rem 0 0 #235da4, -0.5rem 0 0 #235da4",
+              backgroundColor: "#235da4",
               color: "white",
               padding: "1rem",
             }}
