@@ -6,7 +6,7 @@ image: /img/docs-bckg.png
 subheading: Trouvez ici tous les documents relatifs à la Dalle BB
 mainpitch:
   title: A2C Documents
-  description: C'est la description pour dire q'il y a des documents a telecharger.
+  description: C'est la description pour dire qu'il y a des documents a telecharger.
 intro:
   blurbs: []
   heading: Documents a telecharger

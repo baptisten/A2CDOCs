@@ -29,6 +29,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "File", name: "file", widget: file }
+      - { label: "QR code", name: "qr", widget: "image"}
 
   - name: "doctype2"
     label: "Document Type 2"
@@ -45,6 +46,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "File", name: "file", widget: file }
+      - { label: "QR code", name: "qr", widget: "image"}
 
   - name: "pages"
     label: "Pages"
