@@ -50,9 +50,7 @@ class DocType1RollTemplate extends React.Component {
                   <Link className="button" to={post.fields.slug}>
                     Plus de details →
                   </Link>
-                  <Link className="button" to={post.frontmatter.file}>
-                    Voir document →
-                  </Link>
+                  <a href={post.frontmatter.file} className="button" target="_blank">Voir document →</a>
                 </p>
               </article>
             </div>

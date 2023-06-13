@@ -13,6 +13,7 @@ export const DocType1PostTemplate = ({
   description,
   title,
   helmet,
+  qr
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -25,8 +26,16 @@ export const DocType1PostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
+            <div className="doc-content">
+                <div className="qr-code-img">
+                    <a href={qr} target="_blank">
+                        <img src={qr} alt='QR code' />
+                    </a>
+                </div>
+                <div className="doc-content-descr">
+                    <PostContent content={content} />
+                </div>
+            </div>
           </div>
         </div>
       </div>
@@ -51,6 +60,7 @@ const DocType1Post = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        qr={post.frontmatter.qr}
         helmet={
           <Helmet titleTemplate="%s | Document">
             <title>{`${post.frontmatter.title}`}</title>
@@ -82,6 +92,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
+        qr
       }
     }
   }
