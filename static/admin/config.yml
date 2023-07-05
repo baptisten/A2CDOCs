@@ -15,8 +15,8 @@ public_folder: /documents
 collections:
 
   - name: "doctype1"
-    label: "Document Type 1"
-    folder: "src/pages/doctype1"
+    label: "Documents Chantier"
+    folder: "src/pages/chantier"
     create: true
     slug: "{{slug}}"
     fields:
@@ -29,11 +29,11 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "File", name: "file", widget: file }
-      - { label: "QR code", name: "qr", widget: "image"}
+      - { label: "QR code", name: "qr", widget: "image", required: false}
 
   - name: "doctype2"
-    label: "Document Type 2"
-    folder: "src/pages/doctype2"
+    label: "Documents Produits"
+    folder: "src/pages/produit"
     create: true
     slug: "{{slug}}"
     fields:
@@ -46,7 +46,24 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "File", name: "file", widget: file }
-      - { label: "QR code", name: "qr", widget: "image"}
+      - { label: "QR code", name: "qr", widget: "image", required: false}
+
+  - name: "doctype3"
+    label: "Documents Qualité"
+    folder: "src/pages/qualite"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+        label: "Template Key",
+        name: "templateKey",
+        widget: "hidden",
+        default: "doc-type-3-post",
+      }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "File", name: "file", widget: file }
+      - { label: "QR code", name: "qr", widget: "image", required: false}
 
   - name: "pages"
     label: "Pages"

@@ -13,7 +13,8 @@ export const DocType1PostTemplate = ({
   description,
   title,
   helmet,
-  qr
+  qr,
+  file
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -72,6 +73,13 @@ const DocType1Post = ({ data }) => {
         }
         title={post.frontmatter.title}
       />
+      <div className="container content-bottom">
+        <div className="columns">
+          <div className="column is-10 is-offset-1">
+            <a href={post.frontmatter.file} className="button" target="_blank">Voir document →</a>
+          </div>
+        </div>
+      </div>
     </Layout>
   );
 };
@@ -93,6 +101,7 @@ export const pageQuery = graphql`
         title
         description
         qr
+        file
       }
     }
   }

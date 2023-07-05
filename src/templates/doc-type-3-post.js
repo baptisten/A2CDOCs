@@ -7,7 +7,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
 // eslint-disable-next-line
-export const DocType2PostTemplate = ({
+export const DocType3PostTemplate = ({
   content,
   contentComponent,
   description,
@@ -21,6 +21,7 @@ export const DocType2PostTemplate = ({
     <section className="section">
       {helmet || ""}
       <div className="container content">
+
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
@@ -43,7 +44,7 @@ export const DocType2PostTemplate = ({
   );
 };
 
-DocType2PostTemplate.propTypes = {
+DocType3PostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -51,12 +52,12 @@ DocType2PostTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-const DocType2Post = ({ data }) => {
+const DocType3Post = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <DocType2PostTemplate
+      <DocType3PostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
@@ -82,16 +83,16 @@ const DocType2Post = ({ data }) => {
   );
 };
 
-DocType2Post.propTypes = {
+DocType3Post.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 };
 
-export default DocType2Post;
+export default DocType3Post;
 
 export const pageQuery = graphql`
-  query DocType2PostByID($id: String!) {
+  query DocType3PostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html

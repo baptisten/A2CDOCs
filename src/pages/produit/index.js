@@ -19,7 +19,7 @@ export default class DocType2IndexPage extends React.Component {
               padding: "1rem",
             }}
           >
-            Documents type 2
+            Documents Produits
           </h1>
         </div>
         <section className="section">
