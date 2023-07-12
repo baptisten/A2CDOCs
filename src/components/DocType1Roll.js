@@ -43,7 +43,7 @@ class DocType1RollTemplate extends React.Component {
                     <span> &bull; </span>
                   </p>
                 </header>
-                <p>
+                <p className="post-excerpt">
                   {post.excerpt}
                   <br />
                   <br />
