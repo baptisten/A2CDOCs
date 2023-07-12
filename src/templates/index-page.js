@@ -38,9 +38,8 @@ export const IndexPageTemplate = ({
                       <h3 className="subtitle">{mainpitch.description}</h3>
                     </div>
                   </div>
-                  <Features gridItems={intro.blurbs} />
                   <div className="columns">
-                    <div className="column is-12 has-text-centered">
+                    <div className="column is-12 has-text-centered home-quick-links">
                       <Link className="btn" to="/chantier">
                         Documents chantiers
                       </Link>
