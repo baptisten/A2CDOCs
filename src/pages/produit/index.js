@@ -5,11 +5,14 @@ import DocType2Roll from "../../components/DocType2Roll";
 
 export default class DocType2IndexPage extends React.Component {
   render() {
-    document.body.classList.add('all');
+    if (typeof document !== `undefined`){
+      document.body.classList.add('all');
+    }
     let filtercats = (cat) => {
-      console.log(cat);
-      document.body.classList.remove("all", "mci", "mc2i", "predalles", "dallebb","premontes","elementslineaires");
-      document.body.classList.add(cat);
+      if (typeof document !== `undefined`) {
+        document.body.classList.remove("all", "mci", "mc2i", "predalles", "dallebb", "premontes", "elementslineaires");
+        document.body.classList.add(cat);
+      }
     }
     return (
       <Layout>
