@@ -7,15 +7,22 @@ class DocType2RollTemplate extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
-    console.log(data);
+    const safeClassNames = [];
+    safeClassNames['MCi'] = 'mci'
+    safeClassNames['MC2i'] = 'mc2i'
+    safeClassNames['Prédalles'] = 'predalles'
+    safeClassNames['Dalle BB'] = 'dallebb'
+    safeClassNames['Prémontés'] = 'premontes'
+    safeClassNames['Eléments linéaires'] = 'elementslineaires'
 
     return (
-      <div className="columns is-multiline">
+      <div className="columns is-multiline produits-filtered">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+            <div className={`is-parent column is-6 produit-item ` + safeClassNames[post.frontmatter.category]} key={post.id}>
               <article
                 className={`blog-list-item tile is-child box notification`}
+                data-cat={post.frontmatter.category}
               >
                 <header>
                   {post.frontmatter.featuredimage ? (
@@ -42,11 +49,11 @@ class DocType2RollTemplate extends React.Component {
                       {post.frontmatter.title}
                     </Link>
                     <span> &bull; </span>
+                    <span className="category">{post.frontmatter.category}</span>
                   </p>
                 </header>
                 <p className="post-excerpt">
                   {post.excerpt}
-                  <span>{post.fields.category}</span>
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
@@ -92,6 +99,7 @@ export default function DocType2Roll() {
                 frontmatter {
                   title
                   file
+                  category
                   templateKey
                 }
               }
