@@ -46,6 +46,7 @@ class DocType2RollTemplate extends React.Component {
                 </header>
                 <p className="post-excerpt">
                   {post.excerpt}
+                  <span>{post.fields.category}</span>
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
