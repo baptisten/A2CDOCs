@@ -17,6 +17,15 @@ export const DocType1PostTemplate = ({
   file
 }) => {
   const PostContent = contentComponent || Content;
+  let qrCode;
+
+  if (qr){
+    qrCode = <div className="qr-code-img">
+      <a href={qr} target="_blank">
+        <img src={qr} alt='QR code' />
+      </a>
+      </div>
+  }
 
   return (
     <section className="section">
@@ -28,11 +37,7 @@ export const DocType1PostTemplate = ({
               {title}
             </h1>
             <div className="doc-content">
-                <div className="qr-code-img">
-                    <a href={qr} target="_blank">
-                        <img src={qr} alt='QR code' />
-                    </a>
-                </div>
+                {qrCode}
                 <div className="doc-content-descr">
                     <PostContent content={content} />
                 </div>
