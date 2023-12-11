@@ -5,3 +5,5 @@ category: MCi
 file: /documents/notice-d-instructions-pose-prémurs.pdf
 ---
 N﻿otice d'instruction de pose des PREMUR A2C
+
+![](/documents/mci-notice-pose.jpg)
