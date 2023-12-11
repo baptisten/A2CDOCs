@@ -10,7 +10,7 @@ const Footer = class extends React.Component {
             <img
               src='/img/logo.png'
               alt="A2c"
-              style={{ width: "14em", height: "10em" }}
+              style={{ width: "14em", height: "auto", padding: "0 1rem" }}
             />
           </div>
           <div className="footer-links">
