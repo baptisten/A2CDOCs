@@ -8,5 +8,6 @@ file: /documents/fdes_premur-a-obj-tres-bas-carbone.pdf
 
 *PREMUR A2C*
 
-
 « PREMURS A OBJECTIF TRES BAS CARBONE (SANS BETON DE REMPLISSAGE)»
+
+![](/documents/mci-fdes.jpg)
