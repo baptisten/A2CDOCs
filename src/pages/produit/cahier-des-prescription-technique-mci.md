@@ -7,3 +7,5 @@ file: /documents/cpt-mci_cahier-3690-v2.pdf
 **Cahier des prescriptions techniques
 communes aux procédés de murs
 à coffrage intégré**
+
+![](/documents/mci-cpt.jpg)
