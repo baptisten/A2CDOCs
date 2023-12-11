@@ -13,7 +13,7 @@ const TemplateWrapper = ({ children }) => {
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
-        <meta name="description" content={description} />
+        <meta name="description" content="Retrouverez sur ce site l’ensemble des documents produits, chantiers et règlementaires A2C PREFA" />
 
         <link
           rel="apple-touch-icon"
