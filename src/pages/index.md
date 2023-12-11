@@ -1,10 +1,11 @@
 ---
 heading: A2C Documents Heading
 templateKey: index-page
-title: A2C Préfa
+title: A2C Documents
 image: /img/docs-bckg.png
-subheading: Documents
+subheading: Retrouverez ici l'ensemble des documents produits, chantiers et
+  certifications A2C PREFA.
 mainpitch:
-  title: " "
+  title: Que recherchez vous ?
   description: " "
 ---
