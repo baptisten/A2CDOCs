@@ -1,8 +1,8 @@
 ---
 templateKey: doc-type-1-post
-title: Elingues Prémurs
-file: /documents/guide-des-élingues-textiles-prémurs.pdf
+title: Elingues Textiles
+file: /documents/guide_elingues_textiles.pdf
 ---
-G﻿uide d'utilisation des élingues textiles Prémurs
+Elingue de manutention en textile réutilisable
 
 I﻿D Concrete by A2C
