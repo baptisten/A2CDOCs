@@ -49,6 +49,9 @@ export const IndexPageTemplate = ({
                       <Link className="btn" to="/qualite">
                         Documents qualité
                       </Link>
+                      <Link className="btn" to="/rse">
+                        Engagement RSE
+                      </Link>
                     </div>
                   </div>
                 </div>
