@@ -1,6 +1,6 @@
 ---
 templateKey: doc-type-1-post
-title: Rack Premurs
+title: Rack Prémurs
 file: /documents/guide_rack.pdf
 qr: ""
 ---
