@@ -1,6 +1,6 @@
 ---
 templateKey: doc-type-1-post
-title: Guide retourneur
+title: Guide du retourneur
 file: /documents/guide_retourneur.pdf
 qr: ""
 ---
