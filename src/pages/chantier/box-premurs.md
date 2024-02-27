@@ -1,7 +1,7 @@
 ---
 templateKey: doc-type-1-post
 title: Box Prémurs
-file: /documents/guide_box.pdf
+file: /documents/guide-box-chantier.pdf
 ---
 **Les ETS de type 1 (box)**
 
