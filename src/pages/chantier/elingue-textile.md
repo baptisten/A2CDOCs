@@ -1,7 +1,7 @@
 ---
 templateKey: doc-type-1-post
 title: Elingue Textile
-file: /documents/guide_elingues_textiles.pdf
+file: /documents/guide-des-élingues-textiles-prémurs.pdf
 ---
 Elingue de manutention en textile réutilisable
 
