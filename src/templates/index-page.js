@@ -52,6 +52,9 @@ export const IndexPageTemplate = ({
                       <Link className="btn" to="/rse">
                         Engagement RSE
                       </Link>
+                      {/*<Link className="btn" to="/portfolio">*/}
+                      {/*  Portfolio*/}
+                      {/*</Link>*/}
                     </div>
                   </div>
                 </div>
