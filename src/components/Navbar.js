@@ -78,6 +78,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/rse">
                 Engagement RSE
               </Link>
+              <Link className="navbar-item" to="/portfolio">
+                Portfolio
+              </Link>
             </div>
           </div>
         </div>

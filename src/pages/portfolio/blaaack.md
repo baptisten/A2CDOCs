@@ -1,5 +1,5 @@
 ---
-templateKey: doc-rse-post
+templateKey: doc-portfolio-post
 title: Blaaack
 file: /documents/portfolio-dalle-bb-le-black.pdf
 ---

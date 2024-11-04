@@ -75,7 +75,7 @@ export default function DocPortfolioRoll() {
       query={graphql`
         query DocPortfolioRollQuery {
           allMarkdownRemark(
-            filter: { frontmatter: { templateKey: { eq: "doc-Portfolio-post" } } }
+            filter: { frontmatter: { templateKey: { eq: "doc-portfolio-post" } } }
           ) {
             edges {
               node {
