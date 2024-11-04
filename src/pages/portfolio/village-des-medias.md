@@ -1,6 +1,5 @@
 ---
-templateKey: doc-rse-post
-title: Village des Medias
-file: /documents/portfolio-dalle-bb-village-des-medias.pdf
+title: Wiki Village
+file: /documents/portfolio-dalle-bb-wiki-village.pdf
 ---
-B﻿.J.F
+W﻿iki Village Factory
