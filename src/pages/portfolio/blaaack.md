@@ -1,6 +1,6 @@
 ---
 templateKey: doc-portfolio-post
-title: Blaaack
+title: Blaaack Paris Clichy
 file: /documents/portfolio-dalle-bb-le-black.pdf
 ---
-P﻿aris Clichy
+DALLE BB
