@@ -1,6 +1,6 @@
 ---
 templateKey: doc-portfolio-post
-title: Wood Up
+title: Tour Wood Up - Paris
 file: /documents/portfolio-dalle-bb-wood-up.pdf
 ---
-R﻿EI habitat
+DALLE BB
