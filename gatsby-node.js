@@ -4,7 +4,15 @@ const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
 exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions
+  const { createPage } = actions;
+
+  const { createRedirect } = actions;
+
+  createRedirect({
+    fromPath: '/liens_qr_codes_a2c',
+    toPath: '/hidden_documents',
+    isPermanent: true,
+  });
 
   return graphql(`
     {
