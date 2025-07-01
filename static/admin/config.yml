@@ -100,6 +100,23 @@ collections:
       - { label: "File", name: "file", widget: file }
       - { label: "QR code", name: "qr", widget: "image", required: false}
 
+  - name: "hidden_documents"
+    label: "Documents masqués"
+    folder: "src/pages/hidden_documents"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+        label: "Template Key",
+        name: "templateKey",
+        widget: "hidden",
+        default: "doc-hidden-documents-post",
+      }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "File", name: "file", widget: file }
+      - { label: "QR code", name: "qr", widget: "image", required: false}
+
   - name: "pages"
     label: "Pages"
     files:
