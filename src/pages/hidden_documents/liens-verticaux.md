@@ -1,7 +1,7 @@
 ---
 templateKey: doc-hidden-documents-post
 title: Liens Verticaux
-file: /documents/mci-3d-texture.jpg
+file: /documents/guide-de-pose-chantier-mci.pdf
 ---
 **FACTORY :** SIVRY COURTRY 77
 
