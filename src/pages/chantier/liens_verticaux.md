@@ -1,11 +1,11 @@
 ---
 templateKey: doc-type-1-post
 title: Liens_Verticaux
-file: /documents/mci-3d-texture.jpg
+file: /documents/guide-de-pose-chantier-mci.pdf
 ---
 **FACTORY :** SIVRY COURTRY 77
 
-**P﻿RODUCT CONFORMITY :``** EN 14992 EN 15258
+**P﻿RODUCT CONFORMITY :** EN 14992 EN 15258
 
 **C﻿E CERTIFICATION :** 0679-CPR-0916
 
