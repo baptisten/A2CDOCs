@@ -9,9 +9,9 @@ file: /documents/bb_plaquette.jpg
 
 **C﻿E CERTIFICATION :** 0679-CPR-0324
 
-**D﻿TA :** [](https://a2cdoc.com/produit/doc-a/)
+**D﻿TA :** Dalle BB A2C Préfa[](https://a2cdoc.com/produit/doc-a/)
 
-**P﻿RODUCT PERFORMANCE DECLARATION :** ELM-SU2-001 EMS-SU2-003
+**P﻿RODUCT PERFORMANCE DECLARATION :** PRD-SU1-001
 
 **C﻿ONCRETTE :** FCK 28 C40/50
 
