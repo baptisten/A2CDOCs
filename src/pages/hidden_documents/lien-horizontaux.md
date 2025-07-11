@@ -9,7 +9,7 @@ file: /documents/bb_plaquette.jpg
 
 **C﻿E CERTIFICATION :** 0679-CPR-0324
 
-**D﻿TA :** Dalle BB A2C Préfa[](https://a2cdoc.com/produit/doc-a/)
+**D﻿TA :** [Dalle BB A2C Préfa](https://a2cdoc.com/produit/document-technique-dapplication-dalle-bb/)[](https://a2cdoc.com/produit/doc-a/)
 
 **P﻿RODUCT PERFORMANCE DECLARATION :** PRD-SU1-001
 
