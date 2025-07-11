@@ -5,11 +5,11 @@ file: /documents/bb_plaquette.jpg
 ---
 **FACTORY :** SIVRY COURTRY 77
 
-**P﻿RODUCT CONFORMITY :** EN 14992 EN 15258
+**P﻿RODUCT CONFORMITY :** NF-EN-13747/NF-EN-1991-1-1/NF-EN-17474+A2
 
-**C﻿E CERTIFICATION :** 0679-CPR-0916
+**C﻿E CERTIFICATION :** 0679-CPR-0324
 
-**D﻿TA :** [PREMUR A2C](https://a2cdoc.com/produit/doc-a/)
+**D﻿TA :** [](https://a2cdoc.com/produit/doc-a/)
 
 **P﻿RODUCT PERFORMANCE DECLARATION :** ELM-SU2-001 EMS-SU2-003
 
