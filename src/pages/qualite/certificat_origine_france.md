@@ -1,6 +1,6 @@
 ---
 templateKey: doc-type-3-post
-title: Certificat_Origine_France
+title: Certificat Origine France Dalle BB
 file: /documents/certificat-origine-france-garantie-dalle-bb.pdf
 ---
 <!--StartFragment-->
