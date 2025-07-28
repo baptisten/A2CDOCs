@@ -7,7 +7,7 @@ file: /documents/guide-de-pose-chantier-mci.pdf
 
 **P﻿RODUCT CONFORMITY :** EN 14992 EN 15258
 
-**C﻿E CERTIFICATION :** 0679-CPR-0916
+**C﻿E CERTIFICATION :** 0679-CPR-0836
 
 **D﻿TA :** [PREMUR A2C](https://a2cdoc.com/produit/doc-a/)
 
