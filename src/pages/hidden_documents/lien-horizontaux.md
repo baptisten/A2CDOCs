@@ -1,7 +1,7 @@
 ---
 templateKey: doc-hidden-documents-post
 title: Lien Horizontaux
-file: /documents/bb_plaquette.jpg
+file: https://a2cdoc.com/
 ---
 **FACTORY :** SIVRY COURTRY 77
 
