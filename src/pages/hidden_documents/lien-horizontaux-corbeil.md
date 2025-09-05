@@ -13,6 +13,6 @@ file: https://a2cdoc.com/produit/qualipredal-guide-des-bonnes-pratiques/
 
 **P﻿RODUCT PERFORMANCE DECLARATION :** **PRD-CU1-001**
 
-**C﻿ONCRETTE :** 
+**C﻿ONCRETE :** **C30/37**
 
 **L﻿IEN GUIDE DE POSE :**
