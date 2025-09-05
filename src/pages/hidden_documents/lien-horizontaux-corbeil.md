@@ -9,7 +9,7 @@ file: https://a2cdoc.com/produit/qualipredal-guide-des-bonnes-pratiques/
 
 **C﻿E CERTIFICATION :** **0679-CPR-0325**
 
-**D﻿TU :** [](https://a2cdoc.com/produit/document-technique-dapplication-dalle-bb/)[](https://a2cdoc.com/produit/doc-a/)
+**D﻿TU :** **NF DTU 23.4 P1-1**[](https://a2cdoc.com/produit/document-technique-dapplication-dalle-bb/)[](https://a2cdoc.com/produit/doc-a/)
 
 **P﻿RODUCT PERFORMANCE DECLARATION :** **PRD-CU1-001**
 
