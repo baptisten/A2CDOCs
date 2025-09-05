@@ -13,6 +13,6 @@ file: /documents/guide-de-pose-chantier-mci.pdf
 
 **P﻿RODUCT PERFORMANCE DECLARATION :** ELM-SU2-001 EMS-SU2-003
 
-**C﻿ONCRETTE :** FCK 28 C40/50
+**C﻿ONCRETE :** FCK 28 C40/50
 
 **L﻿IEN GUIDE DE POSE :**
