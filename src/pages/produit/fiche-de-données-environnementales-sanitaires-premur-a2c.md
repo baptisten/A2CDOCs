@@ -10,4 +10,4 @@ file: /documents/21.09.20_fdes_pr_mur-_-obj-tr_s-bas-carbone-v1.2-8.pdf
 
 « PREMURS A OBJECTIF TRES BAS CARBONE (SANS BETON DE REMPLISSAGE)»
 
-![](/documents/mci-fdes.jpg)
+![](/documents/21.09.20_fdes_pr_mur-_-obj-tr_s-bas-carbone-v1.2-8.pdf)
