@@ -1,7 +1,7 @@
 ---
 templateKey: doc-type-1-post
 title: Rack Prémurs
-file: /documents/guide-rack-chantier-v2.pdf
+file: /documents/guide-rack-chantier-v3.pdf
 qr: ""
 ---
 **Rack autodéchargeable**
