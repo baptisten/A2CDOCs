@@ -6,6 +6,6 @@ file: /documents/dta-3.2_17-918_v4-premur_a2c.pdf
 ---
 Document Technique d'Application des Prémurs A2C
 
-![](/documents/mci-dta.jpg)
+![](/documents/mc2i_dta_v4.jpg)
 
 ( MCi)
