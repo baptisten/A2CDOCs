@@ -15,4 +15,6 @@ file: https://a2cdoc.com/produit/qualipredal-guide-des-bonnes-pratiques/
 
 **C﻿ONCRETE :** **C40/50**
 
+**T﻿YPE DE CRANTAGE : TYPE C**
+
 **L﻿IEN GUIDE DE POSE :**
