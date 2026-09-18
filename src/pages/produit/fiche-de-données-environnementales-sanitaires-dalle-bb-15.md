@@ -6,4 +6,4 @@ file: /documents/26.07.28_fdes_dalle-bb-15cm_a2c_vf.pdf
 ---
 FDES_Dalle BB 15 cm (hors dalle de compression) VF
 
-![](/documents/bb_fdes15.jpg)
+![](/documents/26.07.28_fdes_dalle-bb-15cm.jpg)
